@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B03C5FB7D07C6FC68E7C5C0A2C28AFA /* IGXMLReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 69E2F8E54A7137DE3A512306BA7AD993 /* IGXMLReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		565CFDDF2640B4182A39F2A87FF2E2A6 /* IGXMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 154607EFD0CD2E586D362A184AFEF6C0 /* IGXMLReader.m */; };
+		7A3675F6FE339921B1F87BE8DD049447 /* Pods-SO36904277-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DC2B8D494BC8462D822BE6D05B00FE /* Pods-SO36904277-dummy.m */; };
+		BCFC3B66753215D6762E8E51248FFE84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		D437C4DB2214361FF43E6F2029A03FBC /* IGXMLReader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3150D23BA0891238F169D4C39BB4A1 /* IGXMLReader-dummy.m */; };
+		E3E969D9D9C0C30668A840853BCF0C2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D364A29B1B886E5FF51D860ED654A18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B001E6DF2E0D530ECADB30275C81EDD;
+			remoteInfo = IGXMLReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		088467540E8598C4DB670028A993C225 /* IGXMLReader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IGXMLReader.xcconfig; sourceTree = "<group>"; };
+		105517C6C00648ADC1F222E03F04599E /* Pods-SO36904277-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SO36904277-frameworks.sh"; sourceTree = "<group>"; };
+		154607EFD0CD2E586D362A184AFEF6C0 /* IGXMLReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGXMLReader.m; path = Pod/Classes/IGXMLReader.m; sourceTree = "<group>"; };
+		31DC2B8D494BC8462D822BE6D05B00FE /* Pods-SO36904277-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SO36904277-dummy.m"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F7A0B9E61764AD07F8443D137D81E33 /* IGXMLReader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IGXMLReader-prefix.pch"; sourceTree = "<group>"; };
+		536D49D7715D1B61EAD21D659456EE38 /* Pods-SO36904277-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SO36904277-acknowledgements.markdown"; sourceTree = "<group>"; };
+		69E2F8E54A7137DE3A512306BA7AD993 /* IGXMLReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGXMLReader.h; path = Pod/Classes/IGXMLReader.h; sourceTree = "<group>"; };
+		76452F1D52D2259C9EE281CE52F0A885 /* libIGXMLReader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIGXMLReader.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F5C64D0D1F1D238DA6A4C6205327AB3 /* Pods-SO36904277.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SO36904277.debug.xcconfig"; sourceTree = "<group>"; };
+		9D9036C9D23A30F6D8ED40A041D80218 /* Pods-SO36904277-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SO36904277-acknowledgements.plist"; sourceTree = "<group>"; };
+		9F205A6D1E8A5B51A47726CE9FEC0450 /* libPods-SO36904277.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SO36904277.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D5D192679110C8AA2F71E65E902E30FB /* Pods-SO36904277.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SO36904277.release.xcconfig"; sourceTree = "<group>"; };
+		EC4BCADBCCC7D9F2AB95807EC1261749 /* Pods-SO36904277-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SO36904277-resources.sh"; sourceTree = "<group>"; };
+		FB3150D23BA0891238F169D4C39BB4A1 /* IGXMLReader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IGXMLReader-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAAE33BADB9892C6E0C139CC9A1DD455 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCFC3B66753215D6762E8E51248FFE84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0A3356303F28B933C8FA0ECECC4E766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E969D9D9C0C30668A840853BCF0C2B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		124F3593BA42E15E96F3A4D2966816FA /* Pods-SO36904277 */ = {
+			isa = PBXGroup;
+			children = (
+				536D49D7715D1B61EAD21D659456EE38 /* Pods-SO36904277-acknowledgements.markdown */,
+				9D9036C9D23A30F6D8ED40A041D80218 /* Pods-SO36904277-acknowledgements.plist */,
+				31DC2B8D494BC8462D822BE6D05B00FE /* Pods-SO36904277-dummy.m */,
+				105517C6C00648ADC1F222E03F04599E /* Pods-SO36904277-frameworks.sh */,
+				EC4BCADBCCC7D9F2AB95807EC1261749 /* Pods-SO36904277-resources.sh */,
+				7F5C64D0D1F1D238DA6A4C6205327AB3 /* Pods-SO36904277.debug.xcconfig */,
+				D5D192679110C8AA2F71E65E902E30FB /* Pods-SO36904277.release.xcconfig */,
+			);
+			name = "Pods-SO36904277";
+			path = "Target Support Files/Pods-SO36904277";
+			sourceTree = "<group>";
+		};
+		617185F72C6DBB58F23958F45ACFB455 /* IGXMLReader */ = {
+			isa = PBXGroup;
+			children = (
+				69E2F8E54A7137DE3A512306BA7AD993 /* IGXMLReader.h */,
+				154607EFD0CD2E586D362A184AFEF6C0 /* IGXMLReader.m */,
+				CD6795D3FF623704B819E777DD02E0CB /* Support Files */,
+			);
+			path = IGXMLReader;
+			sourceTree = "<group>";
+		};
+		6367241825D777098C5C584D4E7243E2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				124F3593BA42E15E96F3A4D2966816FA /* Pods-SO36904277 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A70A1293ADB43055638F8C92BB9CD2D6 /* Pods */,
+				B931B58FCC9C845B08A1B34B409DC34C /* Products */,
+				6367241825D777098C5C584D4E7243E2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A70A1293ADB43055638F8C92BB9CD2D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				617185F72C6DBB58F23958F45ACFB455 /* IGXMLReader */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B931B58FCC9C845B08A1B34B409DC34C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76452F1D52D2259C9EE281CE52F0A885 /* libIGXMLReader.a */,
+				9F205A6D1E8A5B51A47726CE9FEC0450 /* libPods-SO36904277.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CD6795D3FF623704B819E777DD02E0CB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				088467540E8598C4DB670028A993C225 /* IGXMLReader.xcconfig */,
+				FB3150D23BA0891238F169D4C39BB4A1 /* IGXMLReader-dummy.m */,
+				3F7A0B9E61764AD07F8443D137D81E33 /* IGXMLReader-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IGXMLReader";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		61CCD3514EC1EA88165F9B9A4FB9723A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B03C5FB7D07C6FC68E7C5C0A2C28AFA /* IGXMLReader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		221BB467CAC4D86574D2C1123A5EE9DB /* Pods-SO36904277 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB770DCF8676B1AFBE6AFA5C0A04F29 /* Build configuration list for PBXNativeTarget "Pods-SO36904277" */;
+			buildPhases = (
+				DB05B151D0A7FEB38BA5FCE59AE78AEF /* Sources */,
+				B0A3356303F28B933C8FA0ECECC4E766 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5D04BE0C2900FA195FD9B5C8AF6EB5A /* PBXTargetDependency */,
+			);
+			name = "Pods-SO36904277";
+			productName = "Pods-SO36904277";
+			productReference = 9F205A6D1E8A5B51A47726CE9FEC0450 /* libPods-SO36904277.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4B001E6DF2E0D530ECADB30275C81EDD /* IGXMLReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7810D71C0934DB8906EF8402357F3C1D /* Build configuration list for PBXNativeTarget "IGXMLReader" */;
+			buildPhases = (
+				D999328B1D7DCD058A3B3E207FAC504D /* Sources */,
+				AAAE33BADB9892C6E0C139CC9A1DD455 /* Frameworks */,
+				61CCD3514EC1EA88165F9B9A4FB9723A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IGXMLReader;
+			productName = IGXMLReader;
+			productReference = 76452F1D52D2259C9EE281CE52F0A885 /* libIGXMLReader.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B931B58FCC9C845B08A1B34B409DC34C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B001E6DF2E0D530ECADB30275C81EDD /* IGXMLReader */,
+				221BB467CAC4D86574D2C1123A5EE9DB /* Pods-SO36904277 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D999328B1D7DCD058A3B3E207FAC504D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D437C4DB2214361FF43E6F2029A03FBC /* IGXMLReader-dummy.m in Sources */,
+				565CFDDF2640B4182A39F2A87FF2E2A6 /* IGXMLReader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB05B151D0A7FEB38BA5FCE59AE78AEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A3675F6FE339921B1F87BE8DD049447 /* Pods-SO36904277-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5D04BE0C2900FA195FD9B5C8AF6EB5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IGXMLReader;
+			target = 4B001E6DF2E0D530ECADB30275C81EDD /* IGXMLReader */;
+			targetProxy = 7D364A29B1B886E5FF51D860ED654A18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		70D71D135A08C4FF91DF18831BE4F73B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 088467540E8598C4DB670028A993C225 /* IGXMLReader.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IGXMLReader/IGXMLReader-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A57BEC2D96BC466915297866A62477A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F5C64D0D1F1D238DA6A4C6205327AB3 /* Pods-SO36904277.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BE097F5CF8A19C761FB04E00344BD0AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 088467540E8598C4DB670028A993C225 /* IGXMLReader.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IGXMLReader/IGXMLReader-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8D7D3F3C89D758D4203AF858C559523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5D192679110C8AA2F71E65E902E30FB /* Pods-SO36904277.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1534490D941DCA47C62AC4314182AF /* Debug */,
+				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EB770DCF8676B1AFBE6AFA5C0A04F29 /* Build configuration list for PBXNativeTarget "Pods-SO36904277" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57BEC2D96BC466915297866A62477A3 /* Debug */,
+				D8D7D3F3C89D758D4203AF858C559523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7810D71C0934DB8906EF8402357F3C1D /* Build configuration list for PBXNativeTarget "IGXMLReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70D71D135A08C4FF91DF18831BE4F73B /* Debug */,
+				BE097F5CF8A19C761FB04E00344BD0AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

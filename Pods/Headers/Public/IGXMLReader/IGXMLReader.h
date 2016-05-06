@@ -1,0 +1,1 @@
+../../../IGXMLReader/Pod/Classes/IGXMLReader.h
